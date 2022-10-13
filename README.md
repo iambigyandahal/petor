@@ -4,7 +4,7 @@
 
 # petor
 
-petor is a project generator that generates a custom project built beforehand in the current directory.
+petor is a project generator that generates a custom project built beforehand.
 
 ## Installation
 
