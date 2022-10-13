@@ -7,6 +7,8 @@ data.splice(0, 0, "#!/usr/bin/env node");
 const text = data.join("\n");
 console.log(text);
 
-//fs.writeFile("../cli.js", text, function (err) {
-//  if (err) return err;
-//});
+try {
+  fs.writeFileSync(fileName, text);
+} catch(err) {
+  console.log("Something went wrong, please reinstall! If error exists contact developer!");
+}
