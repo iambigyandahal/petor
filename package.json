@@ -4,7 +4,8 @@
   "description": "A project generator.",
   "bin": "./dist/src/cli.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "postbuild": "node ./dist/src/utils/util.prependShebang.js"
   },
   "repository": "https://github.com/iambigyandahal/petor",
   "author": "iambigyandahal",
