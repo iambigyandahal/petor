@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/iambigyandahal/petor"><img src="#" alt="Petor Logo"></a>
+  <a href="https://github.com/iambigyandahal/petor"><img src="https://github.com/iambigyandahal/petor/blob/main/logo.png" alt="Petor Logo"></a>
 </p>
 
 # petor
