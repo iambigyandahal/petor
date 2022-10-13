@@ -9,6 +9,7 @@ const argv = yargs
   .options({
     generate: { type: "string", describe: "Generate a template" },
     list: { type: "boolean", describe: "Show the list of available templates" },
+    "get-template-dir": { type: "boolean", describe: "Get the templates directory" }
   })
   .example("$0 --generate backend restapi", "(Generate a `backend` named template as `restapi`)")
   .version()
@@ -73,6 +74,8 @@ const main = async () => {
     dirs.map((dir, i) => {
       console.log(`${i}) ${dir}`);
     });
+  } else if(argv["get-template-dir"]) {
+    console.log("Template directory: ", path.resolve(__dirname, "../../templates"))
   } else {
     const help = await yargs.getHelp();
     console.log(help);

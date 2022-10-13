@@ -2,6 +2,7 @@
   "name": "petor",
   "version": "1.0.0",
   "description": "A project generator.",
+  "main": "./dist/src/cli.js",
   "bin": "./dist/src/cli.js",
   "scripts": {
     "build": "tsc",
@@ -10,6 +11,11 @@
   "repository": "https://github.com/iambigyandahal/petor",
   "author": "iambigyandahal",
   "license": "MIT",
+  "keywords": [
+    "cli",
+    "project generator",
+    "project skeleton generator"
+  ],
   "dependencies": {
     "chalk": "4.1.2",
     "yargs": "^17.6.0"
