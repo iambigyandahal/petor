@@ -1,0 +1,2 @@
+# petor
+A project generator
